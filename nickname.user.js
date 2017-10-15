@@ -4,8 +4,8 @@
 // @version      1
 // @description  Longer Nick
 // @author       ab
-// @match        http://agar-balkan.ga/*
-// @match        http://www.agar-balkan.ga/*
+// @match        http://agar.rs/*
+// @match        http://www.agar.rs/*
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
