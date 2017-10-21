@@ -10,8 +10,8 @@
 // @run-at       document-end
 // ==/UserScript==
 
-(function() {
+window.addEventListener('load', function() {
   $("#nickname").attr("maxlength", "30");
   window.maxNickLength = 30;
-})();
+}, true)
 
