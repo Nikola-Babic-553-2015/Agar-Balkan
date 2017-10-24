@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Agar Balkan Mass
 // @namespace    
-// @version      1.5
+// @version      1
 // @description  Mass on Q
-// @author       ab
+// @author       bbcnkl
 // @match        http://agar.rs/*
 // @match        http://www.agar.rs/*
 // @grant        none
