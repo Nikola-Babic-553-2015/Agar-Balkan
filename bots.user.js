@@ -3,8 +3,8 @@
 // @version      1.2
 // @description  E, T, R i P za kontrolu botova
 // @author       bbcnkl
-// @match        http://agar-balkan.ga/*
-// @match        http://www.agar-balkan.ga/*
+// @match        http://agar.rs/*
+// @match        http://www.agar.rs/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
