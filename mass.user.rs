@@ -1,13 +1,15 @@
 // ==UserScript==
-// @name         Agar Balkan Mass - E
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match       http://www.agar.rs/*
-// @match       http://agar.rs/*
+// @name         Agar Balkan Mass
+// @namespace    
+// @version      1.5
+// @description  Mass on Q
+// @author       ab
+// @match        http://agar.rs/*
+// @match        http://www.agar.rs/*
 // @grant        none
+// @run-at       document-end
 // ==/UserScript==
+
 window.addEventListener('load', function() {
     console.log('called');
     var interval;
