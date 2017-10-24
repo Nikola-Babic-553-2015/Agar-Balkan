@@ -4,8 +4,8 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
- // @match       http://www.agar.rs/*
- // @match       http://agar.rs/*
+// @match       http://www.agar.rs/*
+// @match       http://agar.rs/*
 // @grant        none
 // ==/UserScript==
 window.addEventListener('load', function() {
