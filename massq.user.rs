@@ -2,7 +2,7 @@
 // @name         Agar Balkan Mass
 // @namespace    
 // @version      1
-// @description  Mass on Q
+// @description  Mass on E
 // @author       bbcnkl
 // @match        http://agar.rs/*
 // @match        http://www.agar.rs/*
@@ -16,8 +16,8 @@ window.addEventListener('load', function() {
     var switchy = false;
     $(document).on('keydown',function(e){
         console.log('keydown e.keyCode="'+e.keyCode+'"');
-        if(e.keyCode == 81){
-            console.log('keydown 81, switchy '+switchy);
+        if(e.keyCode == 69){
+            console.log('keydown 69, switchy '+switchy);
             if(switchy){
                 return;
             }
@@ -32,7 +32,7 @@ window.addEventListener('load', function() {
 
     $(document).on('keyup',function(e){
         console.log('keyup e.keyCode="'+e.keyCode+'"');
-        if(e.keyCode == 81){
+        if(e.keyCode == 69){
             console.log('stop firing');
             switchy = false;
             clearInterval(interval);
