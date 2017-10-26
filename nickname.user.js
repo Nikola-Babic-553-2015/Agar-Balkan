@@ -12,6 +12,5 @@
 
 window.addEventListener('load', function() {
   $("#nickname").attr("maxlength", "30");
-  window.maxNickLength = 30;
 }, true)
 
